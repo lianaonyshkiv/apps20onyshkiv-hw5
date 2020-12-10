@@ -8,6 +8,7 @@ import ua.edu.ucu.function.IntToIntStreamFunction;
 import ua.edu.ucu.function.IntUnaryOperator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class AsIntStream implements IntStream {
     private static AsIntStream values;
@@ -35,20 +36,31 @@ public class AsIntStream implements IntStream {
         return (sum() / (double) count());
     }
 
-    @Override
-    public Integer max() {
+    public int maxMinComparisons(String param) {
         if (array.size() == 0) {
             throw new IllegalArgumentException();
         }
-        return values.max();
+        int min = array.get(0);
+        int max = array.get(0);
+        for (int el : array) {
+            min = Math.min(min, el);
+            max = Math.max(max, el);
+        }
+        if (param.equals("min")) {
+            return min;
+        } else {
+            return max;
+        }
+    }
+
+    @Override
+    public Integer max() {
+        return maxMinComparisons("max");
     }
 
     @Override
     public Integer min() {
-        if (array.size() == 0) {
-            throw new IllegalArgumentException();
-        }
-        return values.min();
+        return maxMinComparisons("min");
     }
 
     @Override
@@ -61,7 +73,11 @@ public class AsIntStream implements IntStream {
         if (array.size() == 0) {
             throw new IllegalArgumentException();
         }
-        return values.sum();
+        int result = 0;
+        for (int el : array) {
+            result += el;
+        }
+        return result;
     }
 
     @Override
