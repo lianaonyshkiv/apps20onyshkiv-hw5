@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="421af438-da7e-4f50-a449-81218d90f90a" name="Default Changelist" comment="&quot;AsIntStram update&quot;">
+    <list default="true" id="421af438-da7e-4f50-a449-81218d90f90a" name="Default Changelist" comment="&quot;AsIntStreamTest update&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/stream/AsIntStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/stream/AsIntStream.java" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.AsIntStreamTest">
+  <component name="RunManager" selected="JUnit.StreamAppTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,8 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AsIntStreamTest" />
         <item itemvalue="JUnit.StreamAppTest" />
+        <item itemvalue="JUnit.AsIntStreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607600082942</updated>
-      <workItem from="1607600084329" duration="8997000" />
+      <workItem from="1607600084329" duration="9312000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;AsIntStram update&quot;">
       <created>1607631527076</created>
@@ -142,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607632705119</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;AsIntStreamTest update&quot;">
+      <created>1607634687816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607634687816</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;AsIntStreamTest update&quot;">
+      <created>1607634794730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607634794730</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;AsIntStram update&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;AsIntStram update&quot;" />
+    <MESSAGE value="&quot;AsIntStreamTest update&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;AsIntStreamTest update&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1163" y="237" key="#Inspections" timestamp="1607601035266">
@@ -176,26 +191,26 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="293" y="314" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1607600112617" />
-    <state width="1251" height="305" key="GridCell.Tab.0.bottom" timestamp="1607634394519">
+    <state width="1251" height="305" key="GridCell.Tab.0.bottom" timestamp="1607634902284">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1251" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607634394519" />
-    <state width="1251" height="305" key="GridCell.Tab.0.center" timestamp="1607634394519">
+    <state width="1251" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1607634902284" />
+    <state width="1251" height="305" key="GridCell.Tab.0.center" timestamp="1607634902284">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1251" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607634394519" />
-    <state width="1251" height="305" key="GridCell.Tab.0.left" timestamp="1607634394518">
+    <state width="1251" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1607634902284" />
+    <state width="1251" height="305" key="GridCell.Tab.0.left" timestamp="1607634902283">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1251" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607634394518" />
-    <state width="1251" height="305" key="GridCell.Tab.0.right" timestamp="1607634394519">
+    <state width="1251" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1607634902283" />
+    <state width="1251" height="305" key="GridCell.Tab.0.right" timestamp="1607634902284">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1251" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607634394519" />
-    <state x="965" y="292" key="Vcs.Push.Dialog.v2" timestamp="1607632709496">
+    <state width="1251" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1607634902284" />
+    <state x="965" y="292" key="Vcs.Push.Dialog.v2" timestamp="1607634800040">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="965" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1607632709496" />
+    <state x="965" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1607634800040" />
     <state x="1313" y="317" key="refactoring.ChangeSignatureDialog" timestamp="1607603561687">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

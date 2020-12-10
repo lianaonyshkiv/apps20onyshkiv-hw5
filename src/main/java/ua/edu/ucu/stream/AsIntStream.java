@@ -8,7 +8,6 @@ import ua.edu.ucu.function.IntToIntStreamFunction;
 import ua.edu.ucu.function.IntUnaryOperator;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class AsIntStream implements IntStream {
     private static AsIntStream values;
