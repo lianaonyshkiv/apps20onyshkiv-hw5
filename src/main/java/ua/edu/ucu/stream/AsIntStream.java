@@ -32,7 +32,7 @@ public class AsIntStream implements IntStream {
         if (array.size() == 0) {
             throw new IllegalArgumentException();
         }
-        return (double) (sum() / count());
+        return (sum() / (double) count());
     }
 
     @Override
@@ -108,7 +108,7 @@ public class AsIntStream implements IntStream {
     @Override
     public int reduce(int identity, IntBinaryOperator op) {
         int result = identity;
-        for (Integer el : array) {
+        for (int el : array) {
             result = op.apply(result, el);
         }
         return result;
