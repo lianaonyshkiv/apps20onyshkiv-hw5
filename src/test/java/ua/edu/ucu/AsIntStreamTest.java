@@ -19,10 +19,22 @@ public class AsIntStreamTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void testOperationException() {
+    public void testAverageException() {
         Double resultOne = empty.average();
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testMaxException() {
         Integer resultTwo = empty.max();
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testMinException() {
         Integer resultThree = empty.min();
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testSumException() {
         Integer resultTwFour = empty.sum();
     }
 
