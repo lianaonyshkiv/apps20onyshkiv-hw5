@@ -1,9 +1,13 @@
 package ua.edu.ucu.stream;
 
-import ua.edu.ucu.function.*;
+
+import ua.edu.ucu.function.IntBinaryOperator;
+import ua.edu.ucu.function.IntConsumer;
+import ua.edu.ucu.function.IntPredicate;
+import ua.edu.ucu.function.IntToIntStreamFunction;
+import ua.edu.ucu.function.IntUnaryOperator;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class AsIntStream implements IntStream {
     private static AsIntStream values;
@@ -63,16 +67,19 @@ public class AsIntStream implements IntStream {
     @Override
     public IntStream filter(IntPredicate predicate) {
         ArrayList<Integer> result = new ArrayList<>();
-        for (int el : array)
+        for (int el : array) {
             if (predicate.test(el)) {
                 result.add(el);
             }
+        }
         return new AsIntStream(result);
     }
 
     @Override
     public void forEach(IntConsumer action) {
-        for (int el : array) action.accept(el);
+        for (int el : array) {
+            action.accept(el);
+        }
     }
 
     @Override
@@ -101,7 +108,9 @@ public class AsIntStream implements IntStream {
     @Override
     public int reduce(int identity, IntBinaryOperator op) {
         int result = identity;
-        for (Integer el : array) result = op.apply(result, el);
+        for (Integer el : array) {
+            result = op.apply(result, el);
+        }
         return result;
     }
 
